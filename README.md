@@ -14,7 +14,15 @@ Die Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Habitatsanalyse_Ergebnis.png" width="350" title="Ergebnis der Habitatsanalyse für den Mückenfänger">
 </p>
 
-# 2.) Universal Soil Loss Equation
+# 2.) Universal Soil Loss Equation (USLE)
+Neben der Vernässung und Versalzung sowie der chemischen, physikalischen und biologischen Degradation ist die Erosion ein treibender Faktor für die Bodendegradation (Verschlechterung der Bodenqualität). Seit 1945 sind weltweit ca. 12 Mio quadratkilometer betroffen. Für diese Flächen besteht die Möglichkeit des vollständigen Verlusts der landwirtschaftlichen Nutzbarkeit. Die Bodenerosion führt zum Abtrag fruchtbarer und humusreicher Feinerde durch abfließenden Niederschlag und Wind sowie zu dem Verlust der Nährstoff-und Wasserspeicherung. Nach dem Abtrag erfolgt die Deposition an anderer Stelle. Der jährliche Verlust liegt weltweit bei ca. 23-26 Milliarden Tonnen.
+Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen schützender Vegetation, vor allem Überweidung, Abholzung und zu kurzen Brachezeiten) begünstigt. Insbesondere der Verlust des Oberbodens ist problematisch. Die Erosion und der Sedimenttransport werden durch Wasser, Wind und Schwerkraft hervorgerufen und sind abhängig von der Niederschlagsintensität, dem Oberflächenabfluss, der Bodenerodierbarkeit, dem Gelände, und der Landbedeckung und Landnutzung.
+<p align="center">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Untersuchungsgebiet.png" width="350" title="Das Untersuchungsgebiet rund um die Saale mit dem entsprechenden senkenlosen digitalen Gelände Modell (DGM).">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_KundCFaktor.png" width="350" title="Darstellung des K und des C Faktors (K = Bodenerodierbarkeitsfaktor, C = Bodenbedeckungs- und Managementfaktor) der USLE.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_LSFaktor.png" width="350" title="Darstellungs des kombinierten LS Faktors (L = Hanglängenfaktor, S = Hangneigungsfaktor) der USLE.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag im Untersuchungsgebiet.">
+</p>
 
 # 3.) 
 

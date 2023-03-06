@@ -23,7 +23,7 @@ Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen s
 </p>
   
 <p align="center"> 
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_LSFaktor.png" width="245" title="Darstellungs des kombinierten LS Faktors (L = Hanglängenfaktor [L = 1 für eine Hanglänge von 22m (Standardhang)], S = Hangneigungsfaktor [S = 1 für eine Hangneigung von 9% (Standardhang)]).">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_LSFaktor.png" width="247" title="Darstellungs des kombinierten LS Faktors (L = Hanglängenfaktor [L = 1 für eine Hanglänge von 22m (Standardhang)], S = Hangneigungsfaktor [S = 1 für eine Hangneigung von 9% (Standardhang)]).">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="250" title="Der berechnete Abtrag [t∙(1/ha)∙(1/a)] im Untersuchungsgebiet.">
 </p>
 

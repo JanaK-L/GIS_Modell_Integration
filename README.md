@@ -19,11 +19,13 @@ Neben der Vernässung und Versalzung sowie der chemischen, physikalischen und bi
 Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen schützender Vegetation, vor allem Überweidung, Abholzung und zu kurzen Brachezeiten) begünstigt. Insbesondere der Verlust des Oberbodens ist problematisch. Die Erosion und der Sedimenttransport werden durch Wasser, Wind und Schwerkraft hervorgerufen und sind abhängig von der Niederschlagsintensität, dem Oberflächenabfluss, der Bodenerodierbarkeit, dem Gelände, und der Landbedeckung und Landnutzung.
 <p align="center">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Untersuchungsgebiet.png" width="350" title="Das Untersuchungsgebiet rund um die Saale mit dem entsprechenden senkenlosen digitalen Gelände Modell (DGM).">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_KundCFaktor.png" width="450" title="Darstellung des K und des C Faktors (K = Bodenerodierbarkeitsfaktor, C = Bodenbedeckungs- und Managementfaktor) der USLE.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_KundCFaktor.png" width="550" title="Darstellung des K und des C Faktors (K = Bodenerodierbarkeitsfaktor, C = Bodenbedeckungs- und Managementfaktor) der USLE.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_LSFaktor.png" width="350" title="Darstellungs des kombinierten LS Faktors (L = Hanglängenfaktor, S = Hangneigungsfaktor) der USLE.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag im Untersuchungsgebiet.">
 </p>
 
 # 3.) 
+Work in Progress
 
 # 4.) 
+Work in Progress

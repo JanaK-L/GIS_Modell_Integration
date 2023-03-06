@@ -8,7 +8,7 @@ Dieses Projekt beinhaltet eine Habitatanalyse in Form eines multikriteriellen Kl
 
 Genauere Details zu einzelnen Modellergebnissen sind im <a href="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/GMI_Protokoll.pdf" target="_blank" rel="noreferrer">Protokoll</a> zu finden.
 
-# 1.) Habitatsanalyse 🐦🦁🦈🦒🐺🐆🐍🐻🐝🐬🦬🐇🐌🐊🦉🦀
+# 1.) Habitatsanalyse 🐦🐊🦉🦈🦒🐺🐆🐍🐻🐝🐬🦬🐇
 Die Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) hat die fünf Hauptursachen für das derzeitige Artensterben identifiziert: die Umweltverschmutzung, invasive Arten, die veränderte Nutzung von Meer und Land, die Ausbeutung von Organismen (Jagd, Wilderei, Überfischung, ...) und der Klimawandel [vgl. <a href="https://www.ipbes.net/global-assessment" target="_blank" rel="noreferrer">Global Assessment Report on Biodiversity and Ecosystem Services 2022</a>]. Systemwissenschaftlich gesehen bilden der Klimawandel und das Artensterben innerhalb unseres Ökosystems zusammen einen sich gegenseitig verstärkenden Rückkopplungskreis, welcher tendenziell eine eskalierende Auswirkung auf das Gesamtsystem zur Folge hat. Eine von vielen wichtigen Gegenmaßnahmen besteht darin, mindestens 30% aller Landflächen und aller Meere unter Schutz zu stellen [vgl. <a href="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/WWF-lpr-living-planet-report-2022-full-version-english.pdf" target="_blank" rel="noreferrer">Living Planet Report 2022</a>]. Welche Flächen für möglichst viele Arten einen potenziellen Lebensraum darstellen, kann durch Habitatsanalysen ermittelt werden. Beispiele: die Habitatsanalyse für den Mückenfänger in den USA oder die <a href="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/Habitatsmodellierung.pdf" target="_blank" rel="noreferrer">Präsentation über eine Beispielstudie einer Habitatsanalyse für pazifische Austernriffe in der chinesischen Laizhou Bucht</a> betrachtet werden.
 <p align="center">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Habitatsanalyse_Ergebnis.png" width="350" title="Ergebnis der Habitatsanalyse für den Mückenfänger">
@@ -42,8 +42,8 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
 </p>
 
 
-# 4.) Urban Sprawl
-Work in Progress
+# 4.) Urban Sprawl basierend auf einem CA
+Das Wachstum und der Flächenverbrauch in urbanen Räumen steigt rasant an und führt zur Zersiedelung der Landschaft. Die natürlichen Habitate vieler Arten werden durch diese Zersiedlung immer kleiner, welches letzendlich zu einem hohen Populationsdruck und dem Rückgang der ursprünglichen natürlichen Populationsgröße führt. Eine Simulation über 6 Zeitschritte  wurde als Beispiel eines Urban Sprawls für ein kleines Gebiet in Australien durchgeführt. Die Modellierung der Stadtausbreitung basiert auf einem zellulären Automaten (CA). Als Basisebene des CA dient die Landnutzung Australiens aus dem Jahr 2014. Durch die Zunahme der thematischen Ebenen Naturschutzgebiet und Hangneigung wird das Modell des CA um zusätzliche Aspekte erweitert.
 
 <p align="center">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/UrbanSprawl_Ergebnis.png" width="350" title="Der Urban Sprawls modelliert durch einen CA nach 6 Zeitschritten.">

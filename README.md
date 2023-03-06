@@ -14,7 +14,7 @@ Die Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Serv
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Habitatsanalyse_Ergebnis.png" width="350" title="Ergebnis der Habitatsanalyse für den Mückenfänger">
 </p>
 
-# 2.) Universal Soil Loss Equation (USLE) :so
+# 2.) Universal Soil Loss Equation (USLE)
 Neben der Vernässung und Versalzung sowie der chemischen, physikalischen und biologischen Degradation ist die Erosion ein treibender Faktor für die Bodendegradation (Verschlechterung der Bodenqualität). Seit 1945 sind weltweit ca. 12 Mio quadratkilometer betroffen. Für diese Flächen besteht die Möglichkeit des vollständigen Verlusts der landwirtschaftlichen Nutzbarkeit. Die Bodenerosion führt zum Abtrag fruchtbarer und humusreicher Feinerde durch abfließenden Niederschlag und Wind sowie zu dem Verlust der Nährstoff-und Wasserspeicherung. Nach dem Abtrag erfolgt die Deposition an anderer Stelle. Der jährliche Verlust liegt weltweit bei ca. 23-26 Milliarden Tonnen.
 Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen schützender Vegetation, vor allem Überweidung, Abholzung und zu kurzen Brachezeiten) begünstigt. Insbesondere der Verlust des Oberbodens ist problematisch. Die Erosion und der Sedimenttransport werden durch Wasser, Wind und Schwerkraft hervorgerufen und sind abhängig von der Niederschlagsintensität, dem Oberflächenabfluss, der Bodenerodierbarkeit, dem Gelände, und der Landbedeckung und Landnutzung. Für die Berechnung der Faktoren der USLE gibt es jeweils verschiedene empirische Formeln. In diesem Modell wird die RUSLE3D (Revised Universal Soil Loss Equation–3D) mit einem kombinierten LS Faktor angewendet.
 <p align="center">
@@ -38,7 +38,7 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/ArcHydro_NodesUndLinks.png" width="350" title="Das Ergebnis der hydrologischen Analyse ist ein topologisch korrektes Fließgewässernetz.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_Frachtkonzentration.png" width="350" title="Der Durchfluss [m^3/a] und die berechnete Bakterienfrachtkonzentration [cfu/a mit cfu = colony forming unit = Zahl coliformer Bakterien] im Untersuchungsgebiet.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_RunoffDifferenz.png" width="350" title="Die Durchflussdifferenz zwischen November und dem monatlichen Jahresdurchschnitt [m^3/a] im Jahr 2019.">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="415" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="412" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
 </p>
 
 
@@ -46,5 +46,5 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
 Das Wachstum und der Flächenverbrauch in urbanen Räumen steigt rasant an und führt zur Zersiedelung der Landschaft. Die natürlichen Habitate vieler Arten werden durch diese Zersiedlung immer kleiner, welches letzendlich zu einem hohen Populationsdruck und dem Rückgang der ursprünglichen natürlichen Populationsgröße führt. Eine Simulation über 6 Zeitschritte  wurde als Beispiel eines Urban Sprawls für ein kleines Gebiet in Australien durchgeführt. Die Modellierung der Stadtausbreitung basiert auf einem zellulären Automaten (CA). Als Basisebene des CA dient die Landnutzung Australiens aus dem Jahr 2014. Durch die Zunahme der thematischen Ebenen Naturschutzgebiet und Hangneigung wird das Modell des CA um zusätzliche Aspekte erweitert.
 
 <p align="center">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/UrbanSprawl_Ergebnis.png" width="450" title="Der Urban Sprawls modelliert durch einen CA nach 6 Zeitschritten.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/UrbanSprawl_Ergebnis.png" width="550" title="Der Urban Sprawls modelliert durch einen CA nach 6 Zeitschritten.">
 </p>

@@ -24,8 +24,17 @@ Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen s
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag [t∙(1/ha)∙(1/a)] im Untersuchungsgebiet.">
 </p>
 
-# 3.) 
-Work in Progress
+# 3.) Hydrologische Analyse, das Bacterial Loading Model & das WATER Modell
+Die Wasserqualität in europäischen Wasserkörpern wird zunehmend beeinträchtigt. Neben Schadstoffen spielen bakterielle Belastungen eine zunehmende Rolle. Bakterielle Belastungen können durch Fäkalien von Menschen oder Tieren sowie von organischem Material im Boden ausgehen. Potenzielle Eintragspfade sind Luft(-partikel, Aerosole), der Bodenabtrag von organischem Material sowie die Bodenaus-/Bodenabwaschung und Siedlungsabwässer, Landwirtschaft (Gülle) und Abwässer aus Gewerbe- und  Industriegebieten. Die Einträge können sowohl punktuell als auch diffus erfolgen. Während dem Transport finden Eliminationsprozesse (biologischer Abbau, Reinigung, Sorption an Partikeln, Sedmination im Gewässer) statt. Daher werden zusätzlich Informationen zu den Transportprozessen (Durchfluss, Sedimentationsraten, Flussmorphologie, Rauhigkeiten, ...) benötigt.
+Für die Modellierung des Transportes von E. Coli Bakterien in dem Untersuchungsgebiet wird das topologisch korrekte Fließgewässernetz, welches im Rahmen der hydrologischen Analyse erzeugt wurde, verwendet. Das Fließgewässernetz dient als Grundlage der Anwendung des Bacterial Loading Modells und des WATER Modells.
+
+
+<p align="center">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/ArcHydro_NodesUndLinks.png" width="350" title="Das Ergebnis der hydrologischen Analyse ist ein topologisch korrektes Fließgewässernetz.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_Frachtkonzentration.png" width="350" title="Der Durchfluss [m^3/a] und die berechnete Bakterienfrachtkonzentration [cfu/a mit cfu = colony forming unit = Zahl coliformer Bakterien] im Untersuchungsgebiet.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_RunoffDifferenz.png" width="350" title="Die Durchflussdifferenz zwischen November und dem monatlichen Jahresdurchschnitt [m^3/a].">
+</p>
+
 
 # 4.) 
 Work in Progress

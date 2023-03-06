@@ -38,7 +38,7 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/ArcHydro_NodesUndLinks.png" width="350" title="Das Ergebnis der hydrologischen Analyse ist ein topologisch korrektes Fließgewässernetz.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_Frachtkonzentration.png" width="350" title="Der Durchfluss [m^3/a] und die berechnete Bakterienfrachtkonzentration [cfu/a mit cfu = colony forming unit = Zahl coliformer Bakterien] im Untersuchungsgebiet.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_RunoffDifferenz.png" width="350" title="Die Durchflussdifferenz zwischen November und dem monatlichen Jahresdurchschnitt [m^3/a] im Jahr 2019.">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="420" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="415" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
 </p>
 
 
@@ -46,5 +46,5 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
 Das Wachstum und der Flächenverbrauch in urbanen Räumen steigt rasant an und führt zur Zersiedelung der Landschaft. Die natürlichen Habitate vieler Arten werden durch diese Zersiedlung immer kleiner, welches letzendlich zu einem hohen Populationsdruck und dem Rückgang der ursprünglichen natürlichen Populationsgröße führt. Eine Simulation über 6 Zeitschritte  wurde als Beispiel eines Urban Sprawls für ein kleines Gebiet in Australien durchgeführt. Die Modellierung der Stadtausbreitung basiert auf einem zellulären Automaten (CA). Als Basisebene des CA dient die Landnutzung Australiens aus dem Jahr 2014. Durch die Zunahme der thematischen Ebenen Naturschutzgebiet und Hangneigung wird das Modell des CA um zusätzliche Aspekte erweitert.
 
 <p align="center">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/UrbanSprawl_Ergebnis.png" width="350" title="Der Urban Sprawls modelliert durch einen CA nach 6 Zeitschritten.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/UrbanSprawl_Ergebnis.png" width="450" title="Der Urban Sprawls modelliert durch einen CA nach 6 Zeitschritten.">
 </p>

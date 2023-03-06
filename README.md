@@ -24,18 +24,21 @@ Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen s
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag [t∙(1/ha)∙(1/a)] im Untersuchungsgebiet.">
 </p>
 
-# 3.) Hydrologische Analyse, das Bacterial Loading Model & das WATER Modell
+# 3.) Hydrologische Analyse, Bacterial Loading Model, SCS-CN Loss Modell, WATER Modell
 Die Wasserqualität in europäischen Wasserkörpern wird zunehmend beeinträchtigt. Neben Schadstoffen spielen bakterielle Belastungen eine zunehmende Rolle. Bakterielle Belastungen können durch Fäkalien von Menschen oder Tieren sowie von organischem Material im Boden ausgehen. Potenzielle Eintragspfade sind Luft(-partikel, Aerosole), der Bodenabtrag von organischem Material sowie die Bodenaus-/Bodenabwaschung und Siedlungsabwässer, Landwirtschaft (Gülle) und Abwässer aus Gewerbe- und  Industriegebieten. Die Einträge können sowohl punktuell als auch diffus erfolgen. Während dem Transport finden Eliminationsprozesse (biologischer Abbau, Reinigung, Sorption an Partikeln, Sedmination im Gewässer) statt. Daher werden zusätzlich Informationen zu den Transportprozessen (Durchfluss, Sedimentationsraten, Flussmorphologie, Rauhigkeiten, ...) benötigt.
 
 Für die Modellierung des Transportes von E. Coli Bakterien in dem Untersuchungsgebiet wird das topologisch korrekte Fließgewässernetz, welches im Rahmen der hydrologischen Analyse erzeugt wurde, verwendet. Das Fließgewässernetz dient als Grundlage für die Anwendung des Bacterial Loading Modells, womit die Bakterienfracht und die Bakterienkonzentrationsfracht modelliert wurden.
-Die alleinige Betrachtung des langjährigen Jahresmittels des Durchflusses vernachlässigt jedoch monatliche Schwankungen des Durchflusses, sowie jährliche Unterschiede im regionalen Niederschlag. Aus diesem Grund wurde die monatliche Abflussdynamik der Fränkischen Saale für das Jahr 2019 modelliert.
 
-Zuletzt wird eine Python-Toolbox mit dem WATER Modell implementiert. Mit WATER kann der Verbleib einer Substanz in Oberflächengewässern im Fließgleichgewicht simuliert werden. Das Modell berechnet für jeden Gewässerabschnitt die Veränderung der Eintragsfracht auf der Fließstrecke. Die Verlustprozesse werden mittels eines exponentiellen Zerfalls mit aggregierter Abbaurate dargestellt.
+Die bisher alleinige Betrachtung des langjährigen Jahresmittels des Durchflusses vernachlässigt jedoch monatliche Schwankungen des Durchflusses, sowie jährliche Unterschiede im regionalen Niederschlag. Aus diesem Grund wurde die monatliche Abflussdynamik der Fränkischen Saale für das Jahr 2019 modelliert. Zur Überführung
+von Niederschlag in abflusswirksamen Niederschlag wurde das SCS-CN (Soil Conservation Service - Curve Number) Loss Modell verwendet, welches eine empirische Methode zur Schätzung des Gesamtabflusses aus landwirtschaftlichen Wassereinzugsgebieten ist.
+
+Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implementiert. Mit WATER kann der Verbleib einer Substanz in Oberflächengewässern im Fließgleichgewicht simuliert werden. Das Modell berechnet für jeden Gewässerabschnitt die Veränderung der Eintragsfracht auf der Fließstrecke. Die Verlustprozesse werden mittels eines exponentiellen Zerfalls mit aggregierter Abbaurate dargestellt. Andere Benutzer können die implementierte Python-Toolbox "WATER_tool" verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.
 
 <p align="center">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/ArcHydro_NodesUndLinks.png" width="350" title="Das Ergebnis der hydrologischen Analyse ist ein topologisch korrektes Fließgewässernetz.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_Frachtkonzentration.png" width="350" title="Der Durchfluss [m^3/a] und die berechnete Bakterienfrachtkonzentration [cfu/a mit cfu = colony forming unit = Zahl coliformer Bakterien] im Untersuchungsgebiet.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_RunoffDifferenz.png" width="350" title="Die Durchflussdifferenz zwischen November und dem monatlichen Jahresdurchschnitt [m^3/a] im Jahr 2019.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="350" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
 </p>
 
 

@@ -21,7 +21,7 @@ Die Bodenerosion wird durch unsachgemäße anthropogene Landnutzung (entfernen s
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Untersuchungsgebiet.png" width="350" title="Das Untersuchungsgebiet ist das Einzugsgebiet der Fränkischen Saale. Hier mit dem entsprechenden senkenlosen digitalen Gelände Modell (DGM) im Hintergrund dargestellt.">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_KundCFaktor.png" width="545" title="Darstellung des K und des C Faktors (K = Bodenerodierbarkeitsfaktor [t*h*(1/mm)*(1/ha)], C = Bodenbedeckungs- und Managementfaktor [Wert zwischen 0 und 1, Beispiele: 0,5 = Kartoffeln/Karotten oder 0.02 = Weide/ Wiese)]).">
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_LSFaktor.png" width="350" title="Darstellungs des kombinierten LS Faktors (L = Hanglängenfaktor [L = 1 für eine Hanglänge von 22m (Standardhang)], S = Hangneigungsfaktor [S = 1 für eine Hangneigung von 9% (Standardhang)]).">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag im Untersuchungsgebiet.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/SoilLoss_Abtrag.png" width="350" title="Der berechnete Abtrag [t*(1/ha)∙(1/a] im Untersuchungsgebiet.">
 </p>
 
 # 3.) 

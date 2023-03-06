@@ -44,7 +44,7 @@ Zuletzt wurrde eine Python-Toolbox, welche das WATER Modell beinhaltet, implemen
 
 <p align="center">   
    <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Bakterien_RunoffDifferenz.png" width="300" title="Die Durchflussdifferenz zwischen November und dem monatlichen Jahresdurchschnitt [m^3/a] im Jahr 2019.">
-   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="372" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
+   <img src="https://github.com/JanaK-L/GIS_Modell_Integration/blob/main/images/Geoprocessing_EingabeInDasTool.png" width="362" title="Der Benutzer kann die implementierte Python-Toolbox WATER_tool (ganz rechts im Bild zu sehen) verwenden, ohne sich selbst mit technischen Details rumschlagen zu müssen.">
 </p>
 
 
